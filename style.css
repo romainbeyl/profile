@@ -1,0 +1,69 @@
+img {
+  width: 200px;
+  border: 1px solid darkblue;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.logo {
+  width: 50px;
+  margin: 5px;
+  border-radius: 20%;
+  border: 0px;
+  box-shadow: none;
+  transition: box-shadow 0.3s, transform 0.3s;
+  }
+body {
+  background-color: #7b7a7a;color: black;
+  padding: 42px; text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.838);
+  padding: 20px;
+  margin: 25px auto;
+  border-radius: 5%;
+  border: 1px solid darkblue
+}
+.logo:hover {
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
+}
+h2 {
+  color : black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+  text-shadow: 0 0 8px white;
+}
+h3 {
+  color : black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  text-shadow: 0 0 8px white;
+}
+.card-bzh {
+  background-image: url("https://crtb.cloudly.space/app/uploads/crt-bretagne/2018/12/thumbs/plage-des-grands-sables-groix--francois-hurtaud-1-1920x640.jpg");
+  background-size: 1500px;
+  padding: 20px;
+  border-radius: 5%;
+  border: 1px solid darkblue
+}
+.container {
+  margin: auto;
+}
+
+@media (max-width: 900) {
+  .container {
+    width: 720px;
+  }
+}
+@media (max-width: 720) {
+  .container {
+    width: 576px;
+  }
+}@media (max-width: 500) {
+  .container {
+    width: 400px;
+  }
+}
